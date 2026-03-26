@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    }
+  ],
+  "env": {
+    "RAPIDAPI_KEY": "@rapidapi-key",
+    "GEMINI_API_KEY": "@gemini-api-key"
+  }
+}

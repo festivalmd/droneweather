@@ -83,7 +83,7 @@ const AeroForm = ({ setFlightData, setIsLoading, setError }: AeroFormProps) => {
     setFlightData(null);
 
     try {
-      const response = await fetch("http://localhost:3001/api/check-flight", {
+      const response = await fetch("/api/check-flight", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
