@@ -97,7 +97,7 @@ content-craft-studio-main/
 ### vite.config.ts
 - React SWC plugin for fast compilation
 - Path resolution for @/ imports
-- lovable-tagger plugin (development)
+- Vite plugin for component tagging (development)
 
 ## CSS Architecture
 
